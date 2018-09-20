@@ -1,0 +1,164 @@
+``<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Box A Photography</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+  <div class="navbar">
+    <a href="index.html"><p>Home</p></a>
+    <p class="services">Services</p>
+    <p class="connect">Connect</p>
+  </div>
+
+  <div class="servicestab" id="tab">
+    <div class ="prices">
+      <p class="listedprice">Basic Wedding Package: &pound 500.00</p>
+      <p class="listedprice">Complete Wedding Package: &pound 750.00</p>
+      <p class="listedprice">Graduation: &pound 75.00</p>
+      <p class="listedprice">Professional headshots: &pound 50.00</p>
+      <p class="listedprice">Modelling photoshoot: &pound 200.00</p>
+      <p class="listedprice">Other photographs: &pound 35.00</p>
+    </div>
+  </div>
+
+ <div class="connecttab" id="tab">
+   <div class ="connectform">
+     <form id="form" action="email.php">
+       <div id="formItem">Name:</div>
+       <input type="text" name="firstname" placeholder="Your name.." class="submissionbox"><br>
+
+       <div id="formItem">How would you like me to help?</div>
+       <select id="serviceHelp" name="service" class="servicehelp">
+         <option value="Complete Wedding Package">Complete Wedding Package</option>
+         <option value="Basic Wedding Package">Basic Wedding Package</option>
+         <option value="Graduation">Graduation</option>
+         <option value="Professional headshots">Professional headshots</option>
+         <option value="Modelling photoshoot">Modelling photoshoot</option>
+         <option value="Other photographs">Other photographs</option>
+         <option value="All other enquiries">All other enquiries</option>
+       </select><br>
+
+       <div id="formItem">Tell me a bit about what you'd like:</div>
+       <textarea rows="4", columns="10" placeholder="Anything you'd like me to know.." class="detailsbox" name="details"></textarea><br>
+
+       <div id="formItem">Please leave your contact details below:</div>
+       <input type="text" name="contactNumber" placeholder="Your number.." class="submissionbox" id="subphone"><br>
+       <input type="text" name="contactEmail" placeholder="Your email.." class="submissionbox" id="submail"><br>
+
+       <input type="submit" value="Submit" class="submitbutton">
+     </form>
+   </div>
+</div>
+
+</header>
+
+<div class="boxatitle">
+  <img src="img/sp.jpg">
+  <div class="boxatitletitles">
+  <h1>Box A Photography</h1>
+  <p>Photography by Helen Langley</p>
+</div>
+</div>
+
+<div class="aboutme">
+  <p>Hi. I'm Helen Langley and I'm a photographer from West London. I take photos of landscapes, sport, nature and more. I'm available to take photos of your wedding, graduation or any other event.</p>
+  <p>Please take a look at some of my work below. Click the photos for more details.</p>
+</div>
+
+<div class="photos">
+
+  <div class="photoblock">
+    <img src="img/lm.jpg">
+    <p>Night trails outside of Les Miserables</p>
+  </div>
+
+  <div class="photoblock">
+    <img src="img/tb.jpg">
+    <p>The sun setting by Tower Bridge</p>
+  </div>
+
+  <div class="photoblock">
+    <img src="img/sd.jpg">
+    <p>Statue of David at the V&A Museum</p>
+  </div>
+
+    <div class="photoblock">
+      <img src="img/pt.jpg">
+      <p>The Playhouse Theatre</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/tt.jpg">
+      <p>The set for the Titanic</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/vr.jpg">
+      <p>The streets of Verona</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/mc.jpg">
+      <p>The view over Monte Carlo</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/nt.jpg">
+      <p>The Novello Theatre</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/mt.jpg">
+      <p>The sunset in Menton</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/bb.jpg">
+      <p>Big Ben</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/br.jpg">
+      <p>Burano, Italy</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/vn.jpg">
+      <p>Venice, Italy</p>
+    </div>
+
+<!-- EMPTY PHOTO BLOCK
+
+<div class="photoblock">
+  <img src="img/.jpg">
+  <p></p>
+</div>
+
+-->
+
+  </div>
+
+</body>
+
+<footer>
+
+  <div class="socialmedia">
+    <p>Find me on Instagram or Twitter</p>
+    <a href="https://www.instagram.com/boxaphotography/" target="_blank"><img src="IG.png" alt="instagram" class="instagram"></a>
+    <a href="https://twitter.com/HELENLANGLEY3" target="_blank"><img src="TW.png" alt="twitter" class="twitter"></a>
+  </div>
+
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+ </html>
