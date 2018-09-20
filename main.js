@@ -1,4 +1,21 @@
-$(document).ready(() => {
+var servicesTab = document.querySelector('.servicestab');
+
+document.querySelector('.services').onclick = toggleServices
+
+function toggleServices() {
+   servicesTab.classList.toggle('activeservices');
+}
+
+var connectTab = document.querySelector('.connecttab');
+
+document.querySelector('.connect').onclick = toggleConnect
+
+function toggleConnect() {
+  connectTab.classList.toggle('activeconnect');
+}
+
+
+/* $(document).ready(() => {
   $('.photos p').hide();
 
   $('.photoblock').on('mouseover', function showCurrentCapt() {
@@ -24,3 +41,4 @@ $(document).ready(() => {
     $(otherTab).slideUp(600);
   })
 });
+*/

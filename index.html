@@ -1,4 +1,4 @@
-``<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,31 +10,31 @@
 
 <body>
   <header>
-  <div class="navbar">
-    <a href="index.html"><p>Home</p></a>
-    <p class="services">Services</p>
-    <p class="connect">Connect</p>
-  </div>
-
-  <div class="servicestab" id="tab">
-    <div class ="prices">
-      <p class="listedprice">Basic Wedding Package: &pound 500.00</p>
-      <p class="listedprice">Complete Wedding Package: &pound 750.00</p>
-      <p class="listedprice">Graduation: &pound 75.00</p>
-      <p class="listedprice">Professional headshots: &pound 50.00</p>
-      <p class="listedprice">Modelling photoshoot: &pound 200.00</p>
-      <p class="listedprice">Other photographs: &pound 35.00</p>
+    <div class="navbar">
+      <a href="index.html"><p>Home</p></a>
+      <p class="services">Services</p>
+      <p class="connect">Connect</p>
     </div>
-  </div>
 
- <div class="connecttab" id="tab">
-   <div class ="connectform">
-     <form id="form" action="email.php">
-       <div id="formItem">Name:</div>
-       <input type="text" name="firstname" placeholder="Your name.." class="submissionbox"><br>
+    <div class="servicestab tab">
+      <div class="prices">
+        <p class="listedprice">Basic Wedding Package: &pound 500.00</p>
+        <p class="listedprice">Complete Wedding Package: &pound 750.00</p>
+        <p class="listedprice">Graduation: &pound 75.00</p>
+        <p class="listedprice">Professional headshots: &pound 50.00</p>
+        <p class="listedprice">Modelling photoshoot: &pound 200.00</p>
+        <p class="listedprice">Other photographs: &pound 35.00</p>
+      </div>
+    </div>
 
-       <div id="formItem">How would you like me to help?</div>
-       <select id="serviceHelp" name="service" class="servicehelp">
+    <div class="connecttab tab">
+      <div class="connectform">
+        <form class="form" action="email.php">
+          <div class="formItem">Name:</div>
+          <input type="text" name="firstname" placeholder="Your name.." class="submissionbox"><br>
+
+          <div class="formItem">How would you like me to help?</div>
+          <select name="service" class="servicehelp">
          <option value="Complete Wedding Package">Complete Wedding Package</option>
          <option value="Basic Wedding Package">Basic Wedding Package</option>
          <option value="Graduation">Graduation</option>
@@ -44,49 +44,48 @@
          <option value="All other enquiries">All other enquiries</option>
        </select><br>
 
-       <div id="formItem">Tell me a bit about what you'd like:</div>
-       <textarea rows="4", columns="10" placeholder="Anything you'd like me to know.." class="detailsbox" name="details"></textarea><br>
+          <div class="formItem">Tell me a bit about what you'd like:</div>
+          <textarea rows="4", columns="10" placeholder="Anything you'd like me to know.." class="detailsbox" name="details"></textarea><br>
 
-       <div id="formItem">Please leave your contact details below:</div>
-       <input type="text" name="contactNumber" placeholder="Your number.." class="submissionbox" id="subphone"><br>
-       <input type="text" name="contactEmail" placeholder="Your email.." class="submissionbox" id="submail"><br>
+          <div class="formItem">Please leave your contact details below:</div>
+          <input type="text" name="contactNumber" placeholder="Your number.." class="submissionbox subphone"><br>
+          <input type="text" name="contactEmail" placeholder="Your email.." class="submissionbox submail"><br>
 
-       <input type="submit" value="Submit" class="submitbutton">
+          <input type="submit" value="Submit" class="submitbutton">
      </form>
-   </div>
-</div>
+      </div>
+    </div>
 
-</header>
+    <div class="boxatitle">
+      <div class="boxatitletext">
+        <h1>Box A Photography</h1>
+        <p>Photography by Helen Langley</p>
+      </div>
+    </div>
 
-<div class="boxatitle">
-  <img src="img/sp.jpg">
-  <div class="boxatitletitles">
-  <h1>Box A Photography</h1>
-  <p>Photography by Helen Langley</p>
-</div>
-</div>
+  </header>
 
-<div class="aboutme">
-  <p>Hi. I'm Helen Langley and I'm a photographer from West London. I take photos of landscapes, sport, nature and more. I'm available to take photos of your wedding, graduation or any other event.</p>
-  <p>Please take a look at some of my work below. Click the photos for more details.</p>
-</div>
-
-<div class="photos">
-
-  <div class="photoblock">
-    <img src="img/lm.jpg">
-    <p>Night trails outside of Les Miserables</p>
+  <div class="aboutme">
+    <p>Hi. I'm Helen Langley and I'm a photographer from West London. I take photos of landscapes, sport, nature and more. I'm available to take photos of your wedding, graduation or any other event.</p>
+    <p>Please take a look at some of my work below. Click the photos for more details.</p>
   </div>
 
-  <div class="photoblock">
-    <img src="img/tb.jpg">
-    <p>The sun setting by Tower Bridge</p>
-  </div>
+  <div class="photos">
 
-  <div class="photoblock">
-    <img src="img/sd.jpg">
-    <p>Statue of David at the V&A Museum</p>
-  </div>
+    <div class="photoblock">
+      <img src="img/lm.jpg">
+      <p>Night trails outside of Les Miserables</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/tb.jpg">
+      <p>The sun setting by Tower Bridge</p>
+    </div>
+
+    <div class="photoblock">
+      <img src="img/sd.jpg">
+      <p>Statue of David at the V&A Museum</p>
+    </div>
 
     <div class="photoblock">
       <img src="img/pt.jpg">
@@ -133,7 +132,7 @@
       <p>Venice, Italy</p>
     </div>
 
-<!-- EMPTY PHOTO BLOCK
+    <!-- EMPTY PHOTO BLOCK
 
 <div class="photoblock">
   <img src="img/.jpg">
@@ -149,16 +148,18 @@
 <footer>
 
   <div class="socialmedia">
-    <p>Find me on Instagram or Twitter</p>
-    <a href="https://www.instagram.com/boxaphotography/" target="_blank"><img src="IG.png" alt="instagram" class="instagram"></a>
-    <a href="https://twitter.com/HELENLANGLEY3" target="_blank"><img src="TW.png" alt="twitter" class="twitter"></a>
+    <div class="smwrap">
+      <p>Find me on Instagram or Twitter</p>
+      <div class="smicons">
+        <a href="https://www.instagram.com/boxaphotography/" target="_blank"><img src="IG.png" alt="instagram" class="instagram"></a>
+        <a href="https://twitter.com/HELENLANGLEY3" target="_blank"><img src="TW.png" alt="twitter" class="twitter"></a>
+      </div>
+    </div>
   </div>
 
 </footer>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="main.js"></script>
 
- </html>
+</html>

@@ -12,7 +12,7 @@
   "Here are the details of the message:\n $details\n".
   "Here is the contact details of $name: email address: $emailadd and phone number: $number".
 
-  $to = "JLangley753@gmail.com";
+  $to = "hlblueuk@yahoo.co.uk";
 
   $headers = "New enquiry from $name at $email_from \r\n";
 
